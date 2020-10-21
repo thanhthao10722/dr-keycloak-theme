@@ -1,0 +1,23 @@
+#!/bin/sh
+
+ASSET_DIR=assets
+
+# account screen
+cp $ASSET_DIR/favicon.ico account/resources/img/
+cp $ASSET_DIR/logo.png account/resources/img/
+
+
+# admin screen
+cp $ASSET_DIR/favicon.ico admin/resources/img
+cp $ASSET_DIR/logo.png admin/resources/img/keyclok-logo.png
+cp $ASSET_DIR/keyclok-logo.svg admin/resources/img/keyclok-logo.svg
+
+# login page
+cp $ASSET_DIR/favicon.ico login/resources/img/
+cp $ASSET_DIR/keycloak-bg.jpg login/resources/img/
+cp $ASSET_DIR/keycloak-logo.png login/resources/img/
+cp $ASSET_DIR/keycloak-logo.png login/resources/img/keycloak-logo-text.png
+
+cp $ASSET_DIR/favicon.ico welcome/resources/
+cp $ASSET_DIR/keycloak-logo-text.png welcome/resources/logo.png
+cp $ASSET_DIR/keycloak-bg.png welcome/resources/
